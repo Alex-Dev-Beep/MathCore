@@ -1,0 +1,14 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "Developer PowerShell for VS 2026": {
+            "source": "PowerShell",
+            "args": [
+                "-NoExit",
+                "-ExecutionPolicy",
+                "Bypass",
+                "-Command",
+                "& 'C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\Launch-VsDevShell.ps1'"
+            ]
+        }
+    }
+}
